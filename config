@@ -237,7 +237,7 @@ bar {
 assign [class="^Firefox$"] → $WS1
 assign [class="^Gvim$"] → $WS6
 assign [class="^Evince$"] → $WS3
-#exec --no-startup-id i3-msg 'workspace 3; exec termite; workspace 1'
+
 # for sound control  
 bindsym $mod1+Up exec amixer set Master  5%+  
 bindsym $mod1+Down exec amixer set Master  5%-  
